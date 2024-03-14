@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main_container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgba(86, 84, 84, 0.301);
+    height: 100vh;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 77%;
+    border-right: 2px thin rgba(86, 84, 84, 0.199);
+}
+.logos{
+    /* background-color: bisque; */
+    /* width: 80%; */
+    height: 80%;
+    margin-top: 30%;
+    text-align: center;
+    border-radius: 20%;
+}
+.logos button{
+    background-color: transparent;
+    border: none;
+}
+.bottom_section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+}
+.logos:hover{
+    transition: 700ms;
+    background-color: rgb(238, 236, 236);
+}
