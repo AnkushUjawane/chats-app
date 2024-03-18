@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Chats from "../../../Shared Components/Chats List/chats";
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>This is dashboard</h1>
-    </div>
-  )
-}
+    <>
+      <div className="dashboard">
+        <Chats />
+        <p>Hi this is Ankush Ujawane</p>
+      </div>
+    </>
+  );
+};
 
 export default Dashboard;
